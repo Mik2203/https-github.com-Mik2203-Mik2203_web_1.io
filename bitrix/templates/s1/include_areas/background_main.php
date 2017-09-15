@@ -1,0 +1,1 @@
+<img alt="main_bg.png" src="<?=SITE_TEMPLATE_PATH?>/images/main_bg.png" title="main_asdasdbg.png">

@@ -1,0 +1,1945 @@
+.adm-workarea *{-webkit-box-sizing: content-box;-moz-box-sizing: content-box;box-sizing: content-box; }
+.adm-workarea textarea {line-height: 18px;}
+.bx-calendar-button-text {height: 23px;}
+.bx-core-waitwindow {}
+
+input[type='text'],input[type='password'],input[type='number'], textarea {-webkit-appearance: none;}
+
+* {outline: none!important}
+
+a, .btn-link, a:focus, .btn-link:focus {}
+a:hover, .btn-link:hover {}
+
+a.net {color: #666;}
+a.net:hover {color:#333; text-decoration: none;}
+a.net:hover span{color:#E96E00;}
+
+.alert {}
+
+.form-control {}
+.form-control:focus{}
+
+.btn-danger:focus, .btn-danger {}
+.btn-danger:active:focus, .btn-danger:active, .btn-danger:hover {}
+
+@font-face {
+    font-family: 'HelveticaNeueCyrBlack';
+    src: url('fonts/HelveticaNeueCyrBlack.eot');
+    src: url('fonts/HelveticaNeueCyrBlack.eot') format('embedded-opentype'),
+    url('fonts/HelveticaNeueCyrBlack.woff2') format('woff2'),
+    url('fonts/HelveticaNeueCyrBlack.woff') format('woff'),
+    url('fonts/HelveticaNeueCyrBlack.ttf') format('truetype'),
+    url('fonts/HelveticaNeueCyrBlack.svg#HelveticaNeueCyrBlack') format('svg');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyrBlackItalic';
+    src: url('fonts/HelveticaNeueCyrBlackItalic.eot');
+    src: url('fonts/HelveticaNeueCyrBlackItalic.eot') format('embedded-opentype'),
+    url('fonts/HelveticaNeueCyrBlackItalic.woff2') format('woff2'),
+    url('fonts/HelveticaNeueCyrBlackItalic.woff') format('woff'),
+    url('fonts/HelveticaNeueCyrBlackItalic.ttf') format('truetype'),
+    url('fonts/HelveticaNeueCyrBlackItalic.svg#HelveticaNeueCyrBlackItalic') format('svg');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyrBold';
+    src: url('fonts/HelveticaNeueCyrBold.eot');
+    src: url('fonts/HelveticaNeueCyrBold.eot') format('embedded-opentype'),
+    url('fonts/HelveticaNeueCyrBold.woff2') format('woff2'),
+    url('fonts/HelveticaNeueCyrBold.woff') format('woff'),
+    url('fonts/HelveticaNeueCyrBold.ttf') format('truetype'),
+    url('fonts/HelveticaNeueCyrBold.svg#HelveticaNeueCyrBold') format('svg');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyrBoldItalic';
+    src: url('fonts/HelveticaNeueCyrBoldItalic.eot');
+    src: url('fonts/HelveticaNeueCyrBoldItalic.eot') format('embedded-opentype'),
+    url('fonts/HelveticaNeueCyrBoldItalic.woff2') format('woff2'),
+    url('fonts/HelveticaNeueCyrBoldItalic.woff') format('woff'),
+    url('fonts/HelveticaNeueCyrBoldItalic.ttf') format('truetype'),
+    url('fonts/HelveticaNeueCyrBoldItalic.svg#HelveticaNeueCyrBoldItalic') format('svg');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyrItalic';
+    src: url('fonts/HelveticaNeueCyrItalic.eot');
+    src: url('fonts/HelveticaNeueCyrItalic.eot') format('embedded-opentype'),
+    url('fonts/HelveticaNeueCyrItalic.woff2') format('woff2'),
+    url('fonts/HelveticaNeueCyrItalic.woff') format('woff'),
+    url('fonts/HelveticaNeueCyrItalic.ttf') format('truetype'),
+    url('fonts/HelveticaNeueCyrItalic.svg#HelveticaNeueCyrItalic') format('svg');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyrLight';
+    src: url('fonts/HelveticaNeueCyrLight.eot');
+    src: url('fonts/HelveticaNeueCyrLight.eot') format('embedded-opentype'),
+    url('fonts/HelveticaNeueCyrLight.woff2') format('woff2'),
+    url('fonts/HelveticaNeueCyrLight.woff') format('woff'),
+    url('fonts/HelveticaNeueCyrLight.ttf') format('truetype'),
+    url('fonts/HelveticaNeueCyrLight.svg#HelveticaNeueCyrLight') format('svg');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyrLightItalic';
+    src: url('fonts/HelveticaNeueCyrLightItalic.eot');
+    src: url('fonts/HelveticaNeueCyrLightItalic.eot') format('embedded-opentype'),
+    url('fonts/HelveticaNeueCyrLightItalic.woff2') format('woff2'),
+    url('fonts/HelveticaNeueCyrLightItalic.woff') format('woff'),
+    url('fonts/HelveticaNeueCyrLightItalic.ttf') format('truetype'),
+    url('fonts/HelveticaNeueCyrLightItalic.svg#HelveticaNeueCyrLightItalic') format('svg');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyrMedium';
+    src: url('fonts/HelveticaNeueCyrMedium.eot');
+    src: url('fonts/HelveticaNeueCyrMedium.eot') format('embedded-opentype'),
+    url('fonts/HelveticaNeueCyrMedium.woff2') format('woff2'),
+    url('fonts/HelveticaNeueCyrMedium.woff') format('woff'),
+    url('fonts/HelveticaNeueCyrMedium.ttf') format('truetype'),
+    url('fonts/HelveticaNeueCyrMedium.svg#HelveticaNeueCyrMedium') format('svg');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyrRoman';
+    src: url('fonts/HelveticaNeueCyrRoman.eot');
+    src: url('fonts/HelveticaNeueCyrRoman.eot') format('embedded-opentype'),
+    url('fonts/HelveticaNeueCyrRoman.woff2') format('woff2'),
+    url('fonts/HelveticaNeueCyrRoman.woff') format('woff'),
+    url('fonts/HelveticaNeueCyrRoman.ttf') format('truetype'),
+    url('fonts/HelveticaNeueCyrRoman.svg#HelveticaNeueCyrRoman') format('svg');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyrThin';
+    src: url('fonts/HelveticaNeueCyrThin.eot');
+    src: url('fonts/HelveticaNeueCyrThin.eot') format('embedded-opentype'),
+    url('fonts/HelveticaNeueCyrThin.woff2') format('woff2'),
+    url('fonts/HelveticaNeueCyrThin.woff') format('woff'),
+    url('fonts/HelveticaNeueCyrThin.ttf') format('truetype'),
+    url('fonts/HelveticaNeueCyrThin.svg#HelveticaNeueCyrThin') format('svg');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyrThinItalic';
+    src: url('fonts/HelveticaNeueCyrThinItalic.eot');
+    src: url('fonts/HelveticaNeueCyrThinItalic.eot') format('embedded-opentype'),
+    url('fonts/HelveticaNeueCyrThinItalic.woff2') format('woff2'),
+    url('fonts/HelveticaNeueCyrThinItalic.woff') format('woff'),
+    url('fonts/HelveticaNeueCyrThinItalic.ttf') format('truetype'),
+    url('fonts/HelveticaNeueCyrThinItalic.svg#HelveticaNeueCyrThinItalic') format('svg');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyrUltraLight_0';
+    src: url('fonts/HelveticaNeueCyrUltraLight_0.eot');
+    src: url('fonts/HelveticaNeueCyrUltraLight_0.eot') format('embedded-opentype'),
+    url('fonts/HelveticaNeueCyrUltraLight_0.woff2') format('woff2'),
+    url('fonts/HelveticaNeueCyrUltraLight_0.woff') format('woff'),
+    url('fonts/HelveticaNeueCyrUltraLight_0.ttf') format('truetype'),
+    url('fonts/HelveticaNeueCyrUltraLight_0.svg#HelveticaNeueCyrUltraLight_0') format('svg');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyrUltraLightItalic';
+    src: url('fonts/HelveticaNeueCyrUltraLightItalic.eot');
+    src: url('fonts/HelveticaNeueCyrUltraLightItalic.eot') format('embedded-opentype'),
+    url('fonts/HelveticaNeueCyrUltraLightItalic.woff2') format('woff2'),
+    url('fonts/HelveticaNeueCyrUltraLightItalic.woff') format('woff'),
+    url('fonts/HelveticaNeueCyrUltraLightItalic.ttf') format('truetype'),
+    url('fonts/HelveticaNeueCyrUltraLightItalic.svg#HelveticaNeueCyrUltraLightItalic') format('svg');
+}
+
+
+html {position: relative; min-height: 100%;}
+body {margin-bottom: 160px;}/*margin-bottom: 160px;*/
+
+code {
+    font-size: 80%;
+}
+
+#content-site .col-md-3.col-sm-12 {
+    display:none;
+}
+
+/* TODO <[ Header сайта ]>
+----------------------------------------------------- */
+.header{
+    position: absolute;
+    z-index: 2;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.header_row {
+    border-width: 0px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2.121px 2.121px 4.5px 0.5px rgba(0, 0, 0, 0.15);
+    width: 89%;
+    margin: 0 auto;
+    height: 102px;
+}
+
+
+/* <[ Блок с Logo ]>
+------------------------------------------------- */
+.img_logo {
+    margin-top: 6px;
+    width: 25%;
+    height: auto;
+    float: left;
+    padding: 10px 0px 0px 28px;
+}
+
+#header_logo {
+    width: 224px;
+    height: 70px;
+    top: 0px;
+    position: relative;
+}
+/* </[ Блок с Logo ]>
+================================================ */
+
+/* <[ Блок с меню  ]>
+------------------------------------------------- */
+.header_menu_panel {
+    width: 75%;
+    float: left;
+    padding: 0px 21px;
+    margin-top: 1px;
+}
+
+.header_menu {
+    margin-right: -30px;
+    height: 43px;
+
+    border-width: 0px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(58, 177, 56);
+    box-shadow: 2.121px 2.121px 4.5px 0.5px rgba(0, 0, 0, 0.15);
+    /*position: absolute;*/
+    /*border-bottom-left-radius: 10px;*/
+    z-index: 2;
+
+    display: block;
+}
+
+.header_menu:after {
+    content: "";
+    top: 35px;
+    position: absolute;
+    display: block;
+    margin-top: 9px;
+    right: 69px;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #1a6119;
+}
+
+#horizontal-multilevel-menu li {
+    float: left;
+    display: inline-block;
+}
+
+#horizontal-multilevel-menu li a:before
+{
+    content: "";
+    border-left: 2px solid #ffffff;
+    padding-left: inherit;
+    padding-right: 10px;
+}
+#horizontal-multilevel-menu li:first-child a:before
+{
+    content:"";
+    display:none;
+}
+
+#horizontal-multilevel-menu li a.root-item
+{
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 0px 0px 0px #252323, 0 0 0em #e5e5e5;
+    margin-left: 15px;
+    padding: 0px 0px 0px 0px;
+}
+#horizontal-multilevel-menu li a.root-item.active
+{
+    color: #000;
+    font-weight: bold;
+    text-shadow: 0px 0px 0px #252323, 0 0 0em #e5e5e5;
+    margin-left: 18px;
+    padding: 0px 0px 0px 0px;
+}
+#horizontal-multilevel-menu li a.root-item-selected {
+    background: #3ab138;
+    color: #38463a;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 0px 0px 0px #252323, 0 0 0em #e5e5e5;
+    padding-left: 12px;
+    padding-right: 0px;
+}
+
+#horizontal-multilevel-menu, #horizontal-multilevel-menu ul {
+    margin: 10px 0px 0px 0px;
+    background: #3ab138;
+    min-height: 27px;
+    width: 100%;
+    list-style: none;
+    font-size: 16px;
+    float: left;
+    padding: 0px 0px;
+}
+
+#horizontal-multilevel-menu li:hover a.root-item, #horizontal-multilevel-menu li.jshover a.root-item
+{
+    background: #3ab138;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px #252323, 0 0 1em #e5e5e5;
+}
+/* </[ Блок с меню ]>
+================================================ */
+
+/* <[ Блок на одном уровне ]>
+------------------------------------------------- */
+/*.header_contacts .phone, .call_back, .mini_basket {*/
+/*display:inline-block;*/
+/*}*/
+/* </[ Блок на одном уровне ]>
+================================================ */
+
+/* <[ Блок тени ]>
+------------------------------------------------ */
+.shadow_text {
+    font-weight: bold;
+    font-family: HelveticaNeueCyr, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #6d625e;
+    text-shadow: 0px 0px 0px rgba(135, 125, 122, 0.5);
+    transition: text-shadow .4 .1s ease;
+    -o-transition: text-shadow .4s .1s ease;
+    -moz-transition: text-shadow .4s .1s ease;
+    -webkit-transition: text-shadow .4s .1s ease;
+}
+
+.shadow_text:hover {
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+}
+
+.shadow_text_basket {
+    font-weight: bold;
+    font-family: HelveticaNeueCyr, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #d38a16;
+    text-shadow: 0px 0px 0px rgba(135, 125, 122, 0.5);
+    transition: text-shadow .4 .1s ease;
+    -o-transition: text-shadow .4s .1s ease;
+    -moz-transition: text-shadow .4s .1s ease;
+    -webkit-transition: text-shadow .4s .1s ease;
+}
+
+.shadow_text_basket:hover {
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+}
+
+.footer_shadow_text {
+    color: #6d625e;
+    text-shadow: 0px 0px 0px rgba(135, 125, 122, 0.5);
+    transition: text-shadow .4 .1s ease;
+    -o-transition: text-shadow .4s .1s ease;
+    -moz-transition: text-shadow .4s .1s ease;
+    -webkit-transition: text-shadow .4s .1s ease;
+}
+
+.footer_shadow_text:hover {
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+}
+/* </[ Блок тени ]>
+================================================ */
+
+/* <[ Блок Телефон ]>
+------------------------------------------------- */
+.phone{
+    display: inline-block;
+    line-height: 66px;
+    padding: 0px 0px 0px 38px;
+    font-size: 18px;
+}
+
+.phone .background_phone {
+    color: #6d625e;
+    text-decoration: none;
+}
+
+.phone .background_phone:first-child {
+    color: #6d625e;
+}
+/* </[ Блок Телефон ]>
+================================================ */
+
+/* <[ Блок заказать звонок ]>
+------------------------------------------------- */
+.call_back {
+    display: inline-block;
+    margin-left: 26px;
+    line-height: 48px;
+}
+
+.call_back .background_call_back a{
+    color: #6d625e;
+    text-decoration: none;
+}
+
+.call_back .background_call_back:first-child {
+    color: #6d625e;
+}
+
+.call_back .background_call_back{
+    background: url(images/request_call.png) no-repeat;
+    background-size: 15%;
+    padding-left: 34px;
+    background-position: left center;
+    text-align: right;
+    display: inline-block;
+    line-height: 35px;
+    font-size: 17px;
+    height: 32px;
+}
+/* </[ Блок заказать звонок ]>
+================================================ */
+
+/* <[ Блок корзины]>
+------------------------------------------------- */
+.mini_basket {
+    padding-right: 0px;
+    display: inline-block;
+    margin-top: 0px;
+}
+
+.mini_basket .shadow_text_basket a {
+    color: #d38a16;
+    text-decoration: none;
+}
+
+.mini_basket a:first-child {
+    color: #d38a16;
+}
+
+.mini_basket  .background_basket{
+    background: url(images/basket_1.png) no-repeat;
+    background-size: 32px;
+    padding-left: 36px;
+    background-position: left center;
+    text-align: right;
+    display: inline-block;
+    line-height: 57px;
+    font-size: 21px;
+}
+/* </[ Блок корзина ]>
+================================================ */
+
+/* <[ Блок сдвига вправо ]>
+------------------------------------------------- */
+.pull_right {
+    float:right;
+}
+/* </[ Блок сдвига вправо ]>
+================================================ */
+
+/* TODO <[ Блок банера ]>
+------------------------------------------------- */
+.main_page_banner {
+    position: relative;
+    z-index: 1;
+}
+
+.main_page_banner img{
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+}
+
+.block_banner_text{
+    opacity: 0.502;
+    /* box-shadow: 2.121px 2.121px 4.5px 0.5px rgba(0, 0, 0, 0.15); */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    padding: 0px 15px;
+    min-height: 0px;
+}
+
+#include_mark_list{
+    font-family: HelveticaNeueCyr, Geneva, Arial, Helvetica, sans-serif;
+    z-index: 1;
+    width: 100%;
+    background: #000;
+    bottom: 317px;
+    overflow: hidden;
+    height: auto;
+}
+
+#include_mark_list ul {
+    color: #ffffff;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    vertical-align: middle;
+    padding: 22px 0px 0px 46px;
+}
+
+#include_mark_list li {
+    line-height: 32px;
+    font-size: 11px;
+    vertical-align: middle;
+}
+
+#include_mark_list li:before {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 5px;
+    background-color: #ffffff;
+    position: relative;
+    float: left;
+    margin: 15px 11px 0px 0px;
+}
+
+#include_mark_list span {
+    color: #ffffff;
+    font-size: 35px;
+    text-align: center;
+    line-height: 29px;
+}
+/* </[ Блок банера ]>
+================================================ */
+
+/* <[ Блок картинка планшет меню ]>
+------------------------------------------------ */
+.background_menu {
+    top: 10px;
+    left: 0px;
+    /*position: absolute;*/
+    line-height: 19px;
+    display: none;
+}
+
+#img_menu {
+    width: 79px;
+    height: 81px;
+    top: 0px;
+    padding-top: 0;
+    position: relative;
+    float: none;
+    display: none;
+}
+/* </[ Блок картинка планшет меню ]>
+================================================ */
+
+/* <[ Блок картинка планшет карзина ]>
+------------------------------------------------ */
+.background_basket_mobile {
+    top: 10px;
+    right: 10px;
+    /*position: absolute;*/
+    line-height: 19px;
+    display: none;
+}
+
+#img_basket_mini {
+    width: 79px;
+    height: 81px;
+    top: 0px;
+    padding-top: 0;
+    position: relative;
+    float: none;
+    display: none;
+}
+/* </[ Блок картинка планшет карзина ]>
+================================================ */
+/* </[ Блок Header ]>
+===================================================== */
+
+/* TODO <[ Блок Главной страницы ]>
+----------------------------------------------------- */
+.br_block_1 {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.text_div_block_1 span {
+    font-family: HelveticaNeueCyr, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 31px;
+}
+
+.buttons_block_1 {
+
+}
+
+.but_1_block_1 span {
+    background: #ff0000 url("/") no-repeat;
+    padding: 8px 50px;
+    display: inline-block;
+    border-bottom-left-radius: 10px;
+}
+
+.but_2_block_1 span {
+    background: #8ea200 url("/") no-repeat;
+    display: inline-block;
+    border-top-right-radius: 10px;
+    padding: 8px 70px;
+}
+
+
+
+/* </[ Блок Главной страницы ]>
+===================================================== */
+
+/* TODO <[ Блок Footer ]>
+----------------------------------------------------- */
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+
+/* <[ Блок container ]>
+------------------------------------------------ */
+body > .container {
+    /*padding: 60px 15px 0;*/
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+/* </[ Блок container ]>
+================================================ */
+
+/* <[ Блок Фона footer ]>
+------------------------------------------------ */
+.footer_background {
+    background-color: #f5f5f5;
+}
+/* </[ Блок Фона footer ]>
+================================================ */
+
+/* <[ Блок Logo ]>
+------------------------------------------------ */
+.footer_logo {
+    width: 25%;
+    height: auto;
+    float: left;
+    margin-bottom: 28px;
+    padding: 0px 0px 0px 63px;
+}
+/* </[ Блок Logo ]>
+================================================ */
+
+/* <[ Блок footer_menu ]>
+------------------------------------------------ */
+.footer_menu {
+    display: block;
+}
+/* </[ Блок footer_menu ]>
+================================================ */
+
+/* <[ Блок телефон ]>
+------------------------------------------------ */
+.footer_phone {
+    float: none;
+    margin: 0px;
+    padding: 0px;
+    position: static;
+    line-height: inherit;
+    display: inline-block;
+    padding-left: 30px;
+
+    font-size: 15px;
+    font-family: HelveticaNeueCyr, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.footer_phone a{
+    color: #6d625e;
+    text-decoration: none;
+}
+
+.footer_phone a:first-child {
+    color: #6d625e;
+}
+/* </[ Блок телефон ]>
+================================================ */
+
+.footer_block_call_back {
+    text-align: right;
+    padding-right: 53px;
+}
+
+/* <[ Блок заказать звонок ]>
+------------------------------------------------ */
+
+.footer_call_back {
+    float: none;
+    margin: 0px;
+    padding: 0px;
+    position: static;
+    line-height: inherit;
+    display: inline-block;
+    background: url(images/request_call.png) no-repeat;
+    background-size: 12%;
+    padding-left: 27px;
+    background-position: left center;
+    /*text-align: right;*/
+    /*display: inline-block;*/
+    /*line-height: 35px;*/
+    /*font-size: 18px;*/
+    /*height: 32px;*/
+}
+
+.footer_call_back a{
+    color: #6d625e;
+    text-decoration: none;
+    background-size: 11%;
+    line-height: 40px;
+    background-position: 7px;
+    font-size: 18px;
+}
+
+.footer_call_back a:first-child {
+    color: #6d625e;
+}
+/* </[ Блок заказать звонок ]>
+================================================ */
+
+/* <[ Блок line_row (Линия) ]>
+------------------------------------------------ */
+.line_row {
+    border-top: 1px solid #b8b1b0; /* Параметры top линии */
+}
+/* </[ Блок line_row (Линия) ]>
+================================================ */
+
+/* <[ Блок copyright ]>
+------------------------------------------------ */
+.copyright {
+    display:inline-block;
+    padding: 10px 0px 10px 60px;
+    font-size: 14px;
+    font-family: HelveticaNeueCyr, Geneva, Arial, Helvetica, sans-serif;
+}
+/* </[ Блок copyright ]>
+================================================ */
+
+.footer_up {
+    margin-top: -37px;
+}
+
+/* <[ Блок кнопки вверх ]>
+------------------------------------------------ */
+.footer_up_button {
+    margin: 0px 0px 0px 0px;
+    margin-right: 15px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    color: #333;
+    /* background-color: #fff; */
+}
+/* </[ Блок кнопки вверх ]>
+================================================ */
+
+/* </[ Блок Footer ]>
+==================================================== */
+
+/* TODO  ----- <[ @media 1200]> ----- */
+@media (max-width: 1200px) {
+
+    /* TODO <[ Блок Header @media 1200]>
+    ---------------------------------------------------- */
+    /*(Open) картинка планшет карзина*/
+    #img_basket_mini {
+        width: 79px;
+        height: 81px;
+        top: 0px;
+        padding-top: 0;
+        position: relative;
+        float: none;
+    }
+    /*(End) картинка планшет карзина*/
+
+    /*(Open) Картинка Корзины*/
+    .images_basket {
+        top: 65px;
+        left: 670px;
+        display: block;
+        /*position: absolute;*/
+        line-height: 19px;
+    }
+    /*(End) Картинка Корзины*/
+    /* </[ Блок Header ]>
+    ==================================================== */
+
+    /* TODO <[ Блок Banner @media 1200]>
+    ---------------------------------------------------- */
+
+    /* </[ Блок Banner ]>
+    ==================================================== */
+
+    /* TODO <[ Блок Footer @media 1200]>
+    ---------------------------------------------------- */
+
+    /* </[ Блок Footer ]>
+    ==================================================== */
+}
+
+/* TODO  ----- <[ @media 1024]> ----- */
+@media (max-width: 1024px){
+
+    /* TODO <[ Блок Header @media 1024]>
+    ---------------------------------------------------- */
+    /*(Open) картинка планшет карзина*/
+    #img_basket_mini {
+        width: 79px;
+        height: 81px;
+        top: 0px;
+        padding-top: 0;
+        position: relative;
+        float: none;
+    }
+    /*(End) картинка планшет карзина*/
+    /* </[ Блок Header ]>
+    ==================================================== */
+
+    .header_row {
+        height: 85px;
+    }
+
+    .img_logo {
+        margin-top: -10px;
+        width: 25%;
+        padding: 0px 0px 0px 24px;
+    }
+
+    .header_menu_panel {
+        width: 75%;
+        padding: 0px 13px;
+    }
+
+    .header_menu {
+        margin-right: -24px;
+        height: 35px;
+        display: block;
+    }
+
+    .header_menu:after {
+        margin-top: 1px;
+        right: 56px;
+        border-right: 11px solid transparent;
+        border-top: 8px solid #1a6119;
+    }
+
+    #horizontal-multilevel-menu, #horizontal-multilevel-menu ul {
+        margin: 6px 0px 0px 0px;
+        font-size: 14px;
+    }
+
+    #horizontal-multilevel-menu li a.root-item {
+        margin-left: 12px;
+    }
+
+    #horizontal-multilevel-menu li a.root-item.active {
+        margin-left: 12px;
+    }
+
+    #horizontal-multilevel-menu li:hover a.root-item, #horizontal-multilevel-menu li.jshover a.root-item
+    {
+        font-size: 14px;
+    }
+
+    .phone {
+        line-height: 15px;
+        padding: 0px 0px 0px 38px;
+        font-size: 14px;
+    }
+
+    .call_back {
+        margin-left: 26px;
+        line-height: 53px;
+    }
+
+    .call_back .background_call_back {
+        background-size: 14%;
+        padding-left: 26px;
+        font-size: 14px;
+    }
+
+    .mini_basket {
+        margin-right: 6px;
+        margin-top: 0px;
+        display: block;
+    }
+
+    .mini_basket .background_basket {
+        background-size: 26px;
+        padding-left: 28px;
+        line-height: 52px;
+        font-size: 18px;
+        margin-top: -2px;
+    }
+
+    /* TODO <[ Блок Banner @media 1024]>
+    ---------------------------------------------------- */
+    #include_mark_list {
+        bottom: 269px;
+    }
+
+    #include_mark_list ul {
+        padding: 22px 0px 0px 32px;
+    }
+
+    #include_mark_list li {
+        line-height: 20px;
+        font-size: 5px;
+    }
+
+    #include_mark_list li:before {
+        margin: 12px 10px 0px 0px;
+    }
+
+    #include_mark_list span {
+        font-size: 29px;
+    }
+
+
+
+    /* </[ Блок Banner ]>
+    ==================================================== */
+
+    /* TODO <[ Блок Footer @media 1024]>
+    ---------------------------------------------------- */
+    .footer_logo {
+        width: 26%;
+        margin-bottom: 0px;
+        padding: 0px 0px 0px 53px;
+    }
+
+    #header_logo {
+        width: 181px;
+        height: 55px;
+        top: 24px;
+    }
+
+    .footer_menu {
+        width: 100%;
+    }
+
+    #horizontal-footer-menu, #horizontal-footer-menu ul {
+        line-height: 15px;
+        padding-right: 54px;
+        margin: 18px 0px 0px 0px;
+        font-size: 14px;
+    }
+
+    #horizontal-footer-menu li a.root-item.active {
+        padding-left: 5px;
+        padding-right: 5px;
+        margin: 0px 0px 0px 5px;
+    }
+
+    #horizontal-footer-menu li:hover a.root-item, #horizontal-footer-menu li.jshover a.root-item
+    {
+        font-size: 14px;
+    }
+
+    .footer_phone {
+
+    }
+
+    .footer_block_call_back {
+
+    }
+    .footer_call_back {
+
+
+
+    }
+
+    .footer_call_back .background_call_back {
+        background-size: 11%;
+        padding-left: 23px;
+        font-size: 15px;
+        margin-bottom: 28px;
+    }
+
+    .copyright {
+        padding: 10px 0px 10px 55px;
+        font-size: 9px;
+    }
+
+    .footer_up_button {
+        margin-right: 13px;
+        font-size: 25px;
+        margin-bottom: 3px;
+    }
+
+    .footer_up {
+        margin-top: -35px;
+    }
+    /* </[ Блок Footer ]>
+    ==================================================== */
+}
+
+/* TODO  ----- <[ @media 992]> ----- */
+@media (max-width: 992px) {
+
+    html, body
+    {
+        -moz-background-size: 80% auto;
+        -webkit-background-size: 80% auto;
+        -o-background-size: 80% auto;
+        background-size: 80% auto;
+    }
+
+    body {
+        margin-bottom: 314px;
+    }
+
+    /* TODO <[ Блок Header @media 992]>
+    ---------------------------------------------------- */
+    /*(Open) картинка планшет меню*/
+    .bg_mob_menu {
+        background: #3ab138 url(images/menu_mobile.png) no-repeat;
+        width: 11%;
+        height: 103px;
+        float: left;
+        z-index: 1;
+        background-position: center;
+        display: block;
+        box-shadow: 2.121px 2.121px 4.5px 0.5px rgba(0, 0, 0, 0.15);
+    }
+
+
+    .bg_mob_basket {
+        background: #ff6727 url(images/basket_0.png) no-repeat;
+        width: 11%;
+        height: 103px;
+        float: right;
+        z-index: 2;
+        background-position: center;
+        display: block;
+        box-shadow: -2.121px 2.121px 4.5px 0.5px rgba(0, 0, 0, 0.15);
+    }
+
+    .mini_basket {
+        display: none;
+    }
+
+    .header_row {
+        width: 79%;
+        height: 204px;
+    }
+
+    .img_logo {
+        width: 100%;
+        padding: 0px 0px 0px 167px;
+        margin-top: -115px;
+    }
+
+    #header_logo {
+        width: 389px;
+        height: 122px;
+    }
+
+    .header_menu {
+        display: none;
+    }
+
+    .header_menu_panel {
+        width: 100%;
+        padding: 0px 0px;
+    }
+
+    .phone {
+        line-height: 25px;
+        padding: 48px 0px 0px 133px;
+        font-size: 23px;
+    }
+
+    .call_back {
+        margin-left: 50px;
+        line-height: 25px;
+    }
+
+    .call_back .background_call_back {
+        background-size: 13%;
+        padding-left: 32px;
+        line-height: 42px;
+        font-size: 23px;
+    }
+
+    .background_menu {
+        top: 0px;
+        display: block;
+        float: left;
+        z-index: 2;
+    }
+
+    #img_menu {
+        width: 79px;
+        height: 81px;
+        display: block;
+    }
+
+    /*(End) картинка планшет меню*/
+    /*(Open) картинка планшет карзина*/
+    .background_basket_mobile {
+        top: 0;
+        right: 0;
+        display: block;
+        float: right;
+        z-index: 2;
+    }
+
+    #img_basket_mini {
+        width: 79px;
+        height: 81px;
+        display: block;
+    }
+    /*(End) картинка планшет карзина*/
+
+    /* </[ Блок Header ]>
+    ==================================================== */
+    /* TODO <[ Блок Banner @media 992]>
+    ---------------------------------------------------- */
+
+    .main_page_banner img {
+        margin-top: 50px;
+    }
+
+    #include_mark_list {
+        bottom: 266px;
+    }
+
+    #include_mark_list ul {
+        font-size: 0px;
+        padding: 17px 0px 0px 33px;
+    }
+
+    #include_mark_list li {
+        line-height: 24px;
+        font-size: 11px;
+    }
+
+    #include_mark_list li:before {
+        margin: 14px 11px 0px 0px;
+    }
+
+    #include_mark_list span {
+        font-size: 28px;
+        line-height: 29px;
+    }
+
+    /* </[ Блок Banner ]>
+    ==================================================== */
+    /* TODO <[ Блок Footer @media 992]>
+    ---------------------------------------------------- */
+    /*выравнивание Логотипа*/
+    .footer_logo {
+        margin-bottom: 0px;
+        padding: 13px 0px 0px 221px;
+    }
+
+    .footer_menu {
+        display: none;
+    }
+
+    .footer_logo #header_logo {
+        width: 475px;
+        height: 150px;
+    }
+
+    .footer_phone {
+
+        font-size: 47px;
+        line-height: 13px;
+
+    }
+
+    .footer_block_call_back {
+        margin-top: 200px;
+    }
+
+    .footer_call_back {
+        line-height: 0px;
+        margin: 2px 284px 0px 0px;
+        margin-bottom: 42px;
+    }
+
+    .footer_call_back .background_call_back {
+        background-size: 11%;
+        padding-left: 26px;
+        line-height: 24px;
+        font-size: 19px;
+        height: 20px;
+        margin-bottom: 0px;
+    }
+
+    .copyright {
+        padding: 6px 0px 14px 342px;
+        font-size: 15px;
+    }
+
+    .footer_up {
+        margin-top: -50px;
+    }
+
+    .footer_up_button {
+        margin: 0px 0px 0px 0px;
+        margin-right: 14px;
+        font-size: 26px;
+        line-height: 53px;
+    }
+
+    /* </[ Блок Footer ]>
+    ==================================================== */
+}
+
+/* TODO  ----- <[ @media 800]> ----- */
+@media (max-width: 800px) {
+    html, body {
+        -moz-background-size: 80% auto;
+        -webkit-background-size: 80% auto;
+        -o-background-size: 80% auto;
+        background-size: 80% auto;
+    }
+
+    /* TODO <[ Блок Header @media 800]>
+    ---------------------------------------------------- */
+    /*(Open) картинка планшет меню*/
+    .bg_mob_menu {
+        background: #3ab138 url(images/menu_mobile.png) no-repeat;
+        width: 11%;
+        height: 78px;
+        float: left;
+        z-index: 1;
+        background-position: center;
+        display: block;
+        box-shadow: 2.121px 2.121px 4.5px 0.5px rgba(0, 0, 0, 0.15);
+    }
+
+
+    .bg_mob_basket {
+        background: #ff6727 url(images/basket_0.png) no-repeat;
+        width: 11%;
+        height: 78px;
+        float: right;
+        z-index: 2;
+        background-position: center;
+        display: block;
+        box-shadow: -2.121px 2.121px 4.5px 0.5px rgba(0, 0, 0, 0.15);
+    }
+
+    .header_row {
+        width: 79%;
+        height: 155px;
+    }
+
+    .img_logo {
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+        margin: -94px 0px 0px -1px;
+    }
+
+    #header_logo {
+        width: 299px;
+        height: 95px;
+    }
+
+    .header_menu_panel {
+        width: 100%;
+        padding: 0px 0px;
+    }
+
+    .phone {
+        line-height: 25px;
+        padding: 39px 0px 0px 100px;
+        font-size: 18px;
+    }
+
+    .call_back {
+        margin-left: 36px;
+        line-height: 25px;
+    }
+
+    .call_back .background_call_back {
+        background-size: 12%;
+        padding-left: 28px;
+        line-height: 41px;
+        font-size: 17px;
+    }
+
+    .background_menu {
+        top: 0px;
+        display: block;
+        float: left;
+        z-index: 2;
+    }
+
+    #img_menu {
+        width: 79px;
+        height: 81px;
+        display: block;
+    }
+
+    /*(End) картинка планшет меню*/
+    /*(Open) картинка планшет карзина*/
+    .background_basket_mobile {
+        top: 0;
+        right: 0;
+        display: block;
+        float: right;
+        z-index: 2;
+    }
+
+    #img_basket_mini {
+        width: 79px;
+        height: 81px;
+        display: block;
+    }
+
+    /*(End) картинка планшет карзина*/
+    /*(Open) Логотип*/
+    .img_logo {
+        text-align: center;
+    }
+
+    /*(End) Логотип*/
+    /* </[ Блок Header ]>
+    ==================================================== */
+    /* TODO <[ Блок Banner @media 800]>
+    ---------------------------------------------------- */
+
+    .main_page_banner img {
+        margin-top: 39px;
+    }
+
+    #include_mark_list {
+        bottom: 205px;
+    }
+
+    #include_mark_list ul {
+        font-size: 0px;
+        padding: 17px 0px 0px 21px;
+    }
+
+    #include_mark_list li {
+        line-height: 24px;
+        font-size: 11px;
+    }
+
+    #include_mark_list li:before {
+        margin: 4px 11px 0px 0px;
+    }
+
+    #include_mark_list span {
+        font-size: 21px;
+        line-height: 16px;
+    }
+
+    /* </[ Блок Banner ]>
+    ==================================================== */
+    /* TODO <[ Блок Footer @media 800]>
+    ---------------------------------------------------- */
+    /*выравнивание Логотипа*/
+    .footer_logo {
+        margin-bottom: 6px;
+        padding: 27px 0px 0px 171px;
+    }
+
+    .footer_logo #header_logo {
+
+    }
+
+    .footer_phone {
+        margin-top: 18px;
+
+        font-size: 35px;
+
+
+    }
+
+    .footer_block_call_back {
+
+    }
+
+    .footer_call_back {
+        line-height: 0px;
+
+        margin-bottom: 26px;
+    }
+
+    .footer_call_back .background_call_back {
+        background-size: 10%;
+        padding-left: 22px;
+        line-height: 31px;
+        font-size: 14px;
+    }
+
+    .copyright {
+
+        font-size: 10px;
+    }
+
+    .footer_up {
+
+    }
+
+    .footer_up_button {
+        margin: 0px;
+        margin-right: 11px;
+        font-size: 21px;
+
+    }
+
+    /* </[ Блок Footer ]>
+    ==================================================== */
+}
+
+/* TODO  ----- <[ @media 768]> ----- */
+@media (max-width: 768px) {
+    html, body {
+        -moz-background-size: 80% auto;
+        -webkit-background-size: 80% auto;
+        -o-background-size: 80% auto;
+        background-size: 80% auto;
+    }
+
+    /* TODO <[ Блок Header @media 768]>
+    ---------------------------------------------------- */
+    /*(Open) картинка планшет меню*/
+    .bg_mob_menu {
+        background: #3ab138 url(images/menu_mobile.png) no-repeat;
+        width: 11%;
+        height: 78px;
+        float: left;
+        z-index: 1;
+        background-position: center;
+        display: block;
+        box-shadow: 2.121px 2.121px 4.5px 0.5px rgba(0, 0, 0, 0.15);
+    }
+
+
+    .bg_mob_basket {
+        background: #ff6727 url(images/basket_0.png) no-repeat;
+        width: 11%;
+        height: 78px;
+        float: right;
+        z-index: 2;
+        background-position: center;
+        display: block;
+        box-shadow: -2.121px 2.121px 4.5px 0.5px rgba(0, 0, 0, 0.15);
+    }
+
+    .header_row {
+        width: 79%;
+        height: 155px;
+    }
+
+    .img_logo {
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+        margin: -70px 0px 0px -1px;
+    }
+
+    #header_logo {
+
+    }
+
+    .header_menu_panel {
+        width: 100%;
+        padding: 0px 0px;
+    }
+
+    .phone {
+        line-height: 25px;
+        padding: 15px 0px 0px 100px;
+        font-size: 18px;
+    }
+
+    .call_back {
+        margin-left: 36px;
+        line-height: 25px;
+    }
+
+    .call_back .background_call_back {
+        background-size: 12%;
+        padding-left: 28px;
+        line-height: 41px;
+    }
+
+
+
+
+    /*(End) картинка планшет меню*/
+    /*(Open) картинка планшет карзина*/
+    .background_basket_mobile {
+        top: 0;
+        right: 0;
+        display: block;
+        float: right;
+        z-index: 2;
+    }
+
+    #img_basket_mini {
+        width: 79px;
+        height: 81px;
+        display: block;
+    }
+
+    /*(End) картинка планшет карзина*/
+    /*(Open) Логотип*/
+    .img_logo {
+        text-align: center;
+    }
+
+    /*(End) Логотип*/
+    /* </[ Блок Header ]>
+    ==================================================== */
+    /* TODO <[ Блок Banner @media 768]>
+    ---------------------------------------------------- */
+
+    .main_page_banner img {
+        margin-top: 39px;
+    }
+
+    #include_mark_list {
+        bottom: 205px;
+    }
+
+    #include_mark_list ul {
+        font-size: 0px;
+        padding: 17px 0px 0px 21px;
+    }
+
+    #include_mark_list li {
+        line-height: 24px;
+        font-size: 11px;
+    }
+
+    #include_mark_list li:before {
+        margin: 4px 11px 0px 0px;
+    }
+
+    #include_mark_list span {
+        font-size: 21px;
+        line-height: 16px;
+    }
+
+    /* </[ Блок Banner ]>
+    ==================================================== */
+    /* TODO <[ Блок Footer @media 768]>
+    ---------------------------------------------------- */
+    /*выравнивание Логотипа*/
+    .footer_logo {
+        margin-bottom: 6px;
+
+    }
+
+    .footer_logo #header_logo {
+
+    }
+
+    .footer_phone {
+        margin-top: 18px;
+
+        font-size: 35px;
+
+    }
+
+    .footer_block_call_back {
+        margin-top: 144px;
+    }
+
+    .footer_call_back {
+    ;
+        margin-bottom: 26px;
+    }
+
+    .footer_call_back .background_call_back {
+        background-size: 10%;
+        padding-left: 22px;
+        line-height: 31px;
+        font-size: 14px;
+    }
+
+    .copyright {
+
+        font-size: 10px;
+    }
+
+    .footer_up {
+
+    }
+
+    .footer_up_button {
+        margin: px;
+        margin-right: 11px;
+        font-size: 21px;
+
+    }
+
+    /* </[ Блок Footer ]>
+    ==================================================== */
+}
+
+/* TODO  ----- <[ @media 425]> ----- */
+@media (max-width: 425px) {
+    html, body {
+        -moz-background-size: 80% auto;
+        -webkit-background-size: 80% auto;
+        -o-background-size: 80% auto;
+        background-size: 80% auto;
+    }
+
+    /* TODO <[ Блок Header @media 425]>
+    ---------------------------------------------------- */
+    .bg_mob_menu {
+        background-size: 55%;
+        height: 44px;
+    }
+
+    .bg_mob_basket {
+        background-size: 55%;
+        height: 44px;
+    }
+
+    .header_row {
+        width: 79%;
+        height: 86px;
+    }
+
+    .img_logo {
+        width: 100%;
+        padding: 0px;
+
+    }
+
+    #header_logo {
+
+    }
+
+    .phone {
+        line-height: 25px;
+
+        font-size: 10px;
+    }
+
+    .call_back {
+        margin-left: 18px;
+        line-height: 2px;
+    }
+
+    .call_back .background_call_back {
+        background-size: 14%;
+        padding-left: 13px;
+        line-height: 28px;
+        font-size: 9px;
+        height: 23px;
+    }
+
+    /* </[ Блок Header ]>
+    ==================================================== */
+    /* TODO <[ Блок Banner @media 425]>
+    ---------------------------------------------------- */
+
+    .main_page_banner img {
+        margin-top: 39px;
+    }
+
+    #include_mark_list {
+        bottom: 114px;
+    }
+
+    #include_mark_list ul {
+        padding: 11px 0px 0px 5px;
+    }
+
+    #include_mark_list li {
+        line-height: 12px;
+        font-size: 12px;
+        margin: 0px;
+    }
+
+    #include_mark_list li:before {
+        margin: 4px 5px 0px 0px;
+    }
+
+    #include_mark_list span {
+        font-size: 12px;
+        line-height: 11px;
+    }
+
+    /* </[ Блок Banner ]>
+    ==================================================== */
+    /* TODO <[ Блок Footer @media 425]>
+    ---------------------------------------------------- */
+    /*выравнивание Логотипа*/
+    .footer_logo {
+        margin-bottom: 0px;
+        padding: 13px 0px 0px 92px;
+    }
+
+    .footer_logo #header_logo {
+        width: 200px;
+        height: 64px;
+    }
+
+    .footer_phone {
+        margin-top: 10px;
+        font-size: 19px;
+    }
+
+    .footer_block_call_back {
+
+    }
+
+    .footer_call_back {
+        line-height: 0px;
+        margin: 21px 120px 0px 0px;
+        margin-bottom: 15px;
+    }
+
+    .footer_call_back .background_call_back {
+        background-size: 11%;
+        padding-left: 11px;
+        line-height: 17px;
+        font-size: 8px;
+        height: 14px;
+    }
+
+    .copyright {
+        padding: 0px 0px 12px 99px;
+        font-size: 10px;
+    }
+
+    .footer_up {
+        margin-top: -32px;
+    }
+
+    .footer_up_button {
+    ;
+        margin-right: 6px;
+        font-size: 11px;
+
+    }
+
+    /* </[ Блок Footer ]>
+    ==================================================== */
+}
+
+/* TODO  ----- <[ @media 320]> ----- */
+@media (max-width: 320px) {
+    html, body {
+        -moz-background-size: 80% auto;
+        -webkit-background-size: 80% auto;
+        -o-background-size: 80% auto;
+        background-size: 80% auto;
+    }
+
+    /* TODO <[ Блок Header @media 320]>
+    ---------------------------------------------------- */
+    /*(Open) картинка планшет меню*/
+    .bg_mob_menu {
+        background: #3ab138 url(images/menu_mobile.png) no-repeat;
+        width: 11%;
+        height: 78px;
+        float: left;
+        z-index: 1;
+        background-position: center;
+        display: block;
+        box-shadow: 2.121px 2.121px 4.5px 0.5px rgba(0, 0, 0, 0.15);
+    }
+
+
+    .bg_mob_basket {
+        background: #ff6727 url(images/basket_0.png) no-repeat;
+        width: 11%;
+        height: 78px;
+        float: right;
+        z-index: 2;
+        background-position: center;
+        display: block;
+        box-shadow: -2.121px 2.121px 4.5px 0.5px rgba(0, 0, 0, 0.15);
+    }
+
+    .header_row {
+        width: 79%;
+        height: 155px;
+    }
+
+    .img_logo {
+        width: 100%;
+        padding: 0px;
+
+    }
+
+    #header_logo {
+
+    }
+
+    .header_menu_panel {
+        width: 100%;
+        padding: 0px ;
+    }
+
+    .phone {
+        line-height: 25px;
+        padding: 15px 0px 0px 100px;
+        font-size: 18px;
+    }
+
+    .call_back {
+        margin-left: 36px;
+        line-height: 25px;
+    }
+
+    .call_back .background_call_back {
+        background-size: 12%;
+        padding-left: 28px;
+        line-height: 41px;
+    }
+
+    .background_menu {
+        top: 0px;
+        display: block;
+        float: left;
+        z-index: 2;
+    }
+
+    #img_menu {
+        width: 79px;
+        height: 81px;
+        display: block;
+    }
+
+    /*(End) картинка планшет меню*/
+    /*(Open) картинка планшет карзина*/
+    .background_basket_mobile {
+        top: 0;
+        right: 0;
+        display: block;
+        float: right;
+        z-index: 2;
+    }
+
+    #img_basket_mini {
+        width: 79px;
+        height: 81px;
+        display: block;
+    }
+
+    /*(End) картинка планшет карзина*/
+    /*(Open) Логотип*/
+    .img_logo {
+        text-align: center;
+    }
+
+    /*(End) Логотип*/
+    /* </[ Блок Header ]>
+    ==================================================== */
+    /* TODO <[ Блок Banner @media 320]>
+    ---------------------------------------------------- */
+
+    .main_page_banner img {
+        margin-top: 39px;
+    }
+
+    #include_mark_list {
+        bottom: 205px;
+    }
+
+    #include_mark_list ul {
+        padding: 17px 0px 0px 21px;
+    }
+
+    #include_mark_list li {
+        line-height: 24px;
+        font-size: 11px;
+    }
+
+    #include_mark_list li:before {
+        margin: 4px 11px 0px 0px;
+    }
+
+    #include_mark_list span {
+        font-size: 21px;
+        line-height: 16px;
+    }
+
+    /* </[ Блок Banner ]>
+    ==================================================== */
+    /* TODO <[ Блок Footer @media 320]>
+    ---------------------------------------------------- */
+    /*выравнивание Логотипа*/
+    .footer_logo {
+        margin-bottom: 6px;
+
+    }
+
+    .footer_logo #header_logo {
+
+    }
+
+    .footer_phone {
+        margin-top: 18px;
+
+        font-size: 35px;
+    }
+
+    .footer_block_call_back {
+
+    }
+
+    .footer_call_back {
+
+        margin-bottom: 26px;
+    }
+
+    .footer_call_back .background_call_back {
+        background-size: 10%;
+        padding-left: 22px;
+        line-height: 31px;
+        font-size: 14px;
+    }
+
+    .copyright {
+
+        font-size: 10px;
+    }
+
+    .footer_up {
+
+    }
+
+    .footer_up_button {
+        margin: 0px;
+        margin-right: 11px;
+        font-size: 21px;
+        line-height: 58px;
+    }
+
+    /* </[ Блок Footer ]>
+    ==================================================== */
+}

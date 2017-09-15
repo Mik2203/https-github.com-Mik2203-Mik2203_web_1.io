@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001502973778';
+$dateexpire = '001502977378';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:3:{i:260;a:14:{s:2:"ID";s:3:"260";s:11:"TIMESTAMP_X";s:19:"10.08.2017 16:56:00";s:9:"MODULE_ID";s:7:"fileman";s:6:"HEIGHT";s:4:"1000";s:5:"WIDTH";s:4:"1600";s:9:"FILE_SIZE";s:6:"126003";s:12:"CONTENT_TYPE";s:10:"image/jpeg";s:6:"SUBDIR";s:16:"medialibrary/759";s:9:"FILE_NAME";s:20:"19-green-kitchen.jpg";s:13:"ORIGINAL_NAME";s:20:"19-green-kitchen.jpg";s:11:"DESCRIPTION";s:0:"";s:10:"HANDLER_ID";N;s:11:"EXTERNAL_ID";s:32:"628a7f2d3bd816b0083e371c35e5974d";s:4:"~src";b:0;}i:261;a:14:{s:2:"ID";s:3:"261";s:11:"TIMESTAMP_X";s:19:"14.08.2017 12:52:45";s:9:"MODULE_ID";s:7:"fileman";s:6:"HEIGHT";s:3:"768";s:5:"WIDTH";s:4:"1024";s:9:"FILE_SIZE";s:5:"88501";s:12:"CONTENT_TYPE";s:10:"image/jpeg";s:6:"SUBDIR";s:16:"medialibrary/62d";s:9:"FILE_NAME";s:20:"green-kitchen-03.jpg";s:13:"ORIGINAL_NAME";s:20:"green-kitchen-03.jpg";s:11:"DESCRIPTION";s:0:"";s:10:"HANDLER_ID";N;s:11:"EXTERNAL_ID";s:32:"f95d53a8f72d103b0fd6e6e185976283";s:4:"~src";b:0;}i:262;a:14:{s:2:"ID";s:3:"262";s:11:"TIMESTAMP_X";s:19:"17.08.2017 15:42:58";s:9:"MODULE_ID";s:7:"fileman";s:6:"HEIGHT";s:3:"654";s:5:"WIDTH";s:3:"940";s:9:"FILE_SIZE";s:6:"628980";s:12:"CONTENT_TYPE";s:9:"image/png";s:6:"SUBDIR";s:16:"medialibrary/151";s:9:"FILE_NAME";s:11:"main_bg.png";s:13:"ORIGINAL_NAME";s:11:"main_bg.png";s:11:"DESCRIPTION";s:0:"";s:10:"HANDLER_ID";N;s:11:"EXTERNAL_ID";s:32:"ccf715fa06d2a02aed1c5efae60a3439";s:4:"~src";b:0;}}}';
+return true;
+?>
